@@ -1,36 +1,22 @@
-# Hi, I'm Burthcer
+# Hi, I'm Dev
 
-Building client-side tools and developer utilities, from local AI systems to browser-based document processing and reference/learning resources.
+I'm a first-year BCA student in Navi Mumbai. I build free, open-source software that works offline: no uploads, no accounts, no subscriptions.
 
-## Featured Flagship
+## Projects
 
-### [Wisperno](https://github.com/Burthcer/Wisperno): 100% offline, GPU-accelerated push-to-talk dictation
+**[IHatePDF](https://github.com/Burthcer/IHatePDF)** (v1.3.1, still in progress)
+28 PDF tools that run in the browser or as a Windows app. Files are processed locally with WebAssembly, so nothing is uploaded. In testing, a 35.5 MB scan compressed to 1.95 MB. The [test report](https://github.com/Burthcer/IHatePDF/blob/main/docs/TEST_REPORT.md) lists 80 passing checks and 0 network requests.
+TypeScript, React, Vite, Tailwind, pdf-lib, pdf.js, Electron.
 
-A local alternative to Wispr Flow: `faster-whisper large-v3-turbo` (CTranslate2/CUDA) for speech-to-text, a local quantized LLM (llama.cpp, Qwen2.5/Llama-3.2 GGUF) for cleanup/formatting, all running on-device. No audio or text ever leaves the machine.
+**[Wisperno](https://github.com/Burthcer/Wisperno)**
+Offline push-to-talk dictation for Windows. Whisper large-v3-turbo runs on a local GPU, and a small local model cleans up the text. On my RTX 4070 Laptop GPU (8 GB) the default preset takes about 0.82 s per 100 words and uses about 3.5 GB of VRAM. Methods and all presets are in the [benchmarks](https://github.com/Burthcer/Wisperno/blob/main/BENCHMARKS.md).
+Python, PySide6, CUDA, faster-whisper, llama.cpp.
 
-- **Zero-cloud by design**: Wispr Flow (the product this takes after) has no offline mode at any pricing tier and sends every word to a cloud subprocessor stack; Wisperno makes zero network calls once models are on disk.
-- **Runs inside a strict hardware budget**: four engine presets trade fidelity for footprint, all measured (not estimated) on the actual shipping target (RTX 4070 Laptop, 8GB VRAM):
+## Also
 
-  | Preset | VRAM | System RAM | Decode Speed |
-  |---|---|---|---|
-  | **Turbo Flagship (default)** | 3.5 GB | 2.3 GB | 113.8 tok/s |
-  | Eco | 3.6 GB | 2.3 GB | 103.3 tok/s |
-  | Standard | 3.7 GB | 2.6 GB | 91.7 tok/s |
-  | Flagship | 5.1 GB | 3.9 GB | 63.1 tok/s |
+- [UniDoc Vault](https://github.com/Burthcer/unidoc-vault): client-side document compression and encryption for university admission uploads (Next.js, React, TypeScript).
+- [Python Cheat Sheet Central](https://github.com/Burthcer/Python-Html-Cheat-Sheet): an offline-capable PWA dashboard of Python cheat sheets.
 
-- **Real speech, measured, not projected**: a genuine TTS-generated sample transcribed end to end at **RTF 0.097** (~10.3x faster than real-time), came back 100% word-for-word verbatim.
-- **Cold start**: Whisper loads in 2.8-5.2s, the local LLM in ~1.1-1.2s.
-- Full benchmark methodology, reproducible via the two scripts that ship in the repo, is in [Wisperno's README](https://github.com/Burthcer/Wisperno#measured-performance).
+## Contact
 
-## Skills
-
-**Languages:** TypeScript · JavaScript · Python · HTML/CSS
-
-**Frameworks & Libraries:** Next.js · React · Tailwind CSS · faster-whisper · llama.cpp · PySide6
-
-**AI/Tools:** Claude Code · Git · GitHub CLI · Web Crypto API · PWA/Service Workers
-
-## Other Projects
-
-- **[UniDoc Vault](https://github.com/Burthcer/unidoc-vault)**: Client-side document compression & encryption vault for university admission uploads, built with Next.js, React, and TypeScript.
-- **[Python Cheat Sheet Central](https://github.com/Burthcer/Python-Html-Cheat-Sheet)**: Offline-capable, themeable PWA dashboard of Python cheat sheets.
+[devbhamaria.com](https://devbhamaria.com) | dev.bhamaria@gmail.com | [LinkedIn](https://www.linkedin.com/in/dev-bhamaria-22b1503ab)
