@@ -32,6 +32,9 @@ Offline push-to-talk dictation for Windows. Whisper large-v3-turbo runs on a loc
 ## 📫 Let's connect
 
 [![Website](https://img.shields.io/badge/WEBSITE-DEVBHAMARIA.COM-8A2BE2?style=for-the-badge&logo=safari&logoColor=white)](https://devbhamaria.com)
+
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-DEV%20BHAMARIA-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/dev-bhamaria-22b1503ab)
+
 [![DEV](https://img.shields.io/badge/DEV.TO-BURTHCER-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/burthcer)
+
 [![Email](https://img.shields.io/badge/EMAIL-DEV.BHAMARIA@GMAIL.COM-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dev.bhamaria@gmail.com)
