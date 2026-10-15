@@ -4,7 +4,7 @@ I'm a first-year BCA student in Navi Mumbai. I build free, open-source software 
 
 ## 🚀 Projects
 
-**[IHatePDF](https://github.com/Burthcer/IHatePDF)** (v1.3.1, still in progress)
+**[IHatePDF](https://github.com/Burthcer/IHatePDF)** (v1.4.0, still in progress)
 
 28 PDF tools that run in the browser or as a Windows app. Files are processed locally with WebAssembly, so nothing is uploaded. In testing, a 35.5 MB scan compressed to 1.95 MB. The [test report](https://github.com/Burthcer/IHatePDF/blob/main/docs/TEST_REPORT.md) lists 80 passing checks and 0 network requests.
 
